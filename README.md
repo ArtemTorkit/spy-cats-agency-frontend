@@ -21,11 +21,18 @@ Install all dependencies:
 make setup
 
 ```
+
+Run the following command to run the project:
+
+```bash
+make run
+```
+
 Here's a table describing your Makefile commands for the frontend:
-| Command       | Description                                                        |
+| Command | Description |
 | ------------- | ------------------------------------------------------------------ |
-| `make setup`  | Install all npm dependencies for the frontend.                     |
-| `make dev`    | Start the development server (`npm run dev`) for live development. |
-| `make build`  | Build the frontend for production (`npm run build`).               |
-| `make lint`   | Check code formatting using Prettier (`npx prettier --check`).     |
+| `make setup` | Install all npm dependencies for the frontend. |
+| `make dev` | Start the development server (`npm run dev`) for live development. |
+| `make build` | Build the frontend for production (`npm run build`). |
+| `make lint` | Check code formatting using Prettier (`npx prettier --check`). |
 | `make format` | Automatically format code using Prettier (`npx prettier --write`). |
