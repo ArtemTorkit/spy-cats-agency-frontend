@@ -25,7 +25,7 @@ make setup
 Run the following command to run the project:
 
 ```bash
-make run
+make dev
 ```
 
 Here's a table describing your Makefile commands for the frontend:
